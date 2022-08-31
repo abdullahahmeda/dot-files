@@ -1,0 +1,8 @@
+vim.keymap.set('n', '<C-b>', ':NERDTreeToggle<CR>')
+vim.keymap.set('n', '<C-f>', ':Telescope find_files<CR>')
+--vim.keymap.set('n', '<C-w>', ':bd<CR>')
+--vim.keymap.set('n', '<C-n>', ':tabnew<CR>')
+vim.keymap.set('', '<leader>tn', ':tabnew<CR>')
+vim.keymap.set('', '<leader>tc', ':tabclose<CR>')
+vim.keymap.set('n', '<S-Right>', ':bn<CR>')
+vim.keymap.set('n', '<S-Left>', ':bp<CR>')
